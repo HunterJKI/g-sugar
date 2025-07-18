@@ -14,5 +14,6 @@ Syntactic Sugar for LabVIEW (G)
 
 G-Sugar is distributed as a VI Package for use in LabVIEW 2020+
 
-
 ## Licensing
+
+MIT License
