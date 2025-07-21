@@ -1,3 +1,5 @@
 # Non-source LabVIEW files (regenreated automaticly)
 *.aliases
 *.lvlps
+
+build/
