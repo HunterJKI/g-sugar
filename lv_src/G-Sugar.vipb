@@ -28,7 +28,7 @@
     <VI_Package_Configuration_File>G-Sugar.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>G-Sugar is syntactic sugar for LabVIEW - code deisnged to make common opperations cleaner, more consistant, and easier to read. </Description>
+      <Description>G-Sugar is syntactic sugar for LabVIEW - code designed to make common operations cleaner, more consistent, and easier to read. </Description>
       <Copyright/>
       <Packager>Hunter Smith</Packager>
       <URL/>
