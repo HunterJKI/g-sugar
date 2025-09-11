@@ -1,0 +1,1981 @@
+8/7/2025 9:58:26 AM
+
+[AB_L New Build](0.106)(176704):
+Project:g-sugar.lvproj
+Target:My Computer
+BuildSpec:G-Sugar Source Distribution
+OS:Windows 95/NT
+LabVIEW Version: 20.0.1f1
+
+[AB_L ProjectFileData](0.108)(176704):
+NOTE:This data will be stale if the build spec has been modified and the project file has not been saved!
+
+<Item Name="G-Sugar Source Distribution" Type="Source Distribution">
+<Property Name="Bld_buildCacheID" Type="Str">{8FB00A1C-8DB2-4B09-B386-5612CB7ECF5F}</Property>
+<Property Name="Bld_buildSpecName" Type="Str">G-Sugar Source Distribution</Property>
+<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/hunter/Documents/LabVIEW Data/2020(64-bit)/ExtraVILib</Property>
+<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+<Property Name="Bld_localDestDir" Type="Path">../build/source-dist</Property>
+<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+<Property Name="Bld_previewCacheID" Type="Str">{928FDBD5-4ACC-4774-966F-96A08B6EF7E2}</Property>
+<Property Name="Bld_removeVIObj" Type="Int">1</Property>
+<Property Name="Bld_userLogFile" Type="Path">../build/g-sugar Source Distribution_log.txt</Property>
+<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+<Property Name="Bld_version.minor" Type="Int">9</Property>
+<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+<Property Name="Destination[0].path" Type="Path">../build/source-dist</Property>
+<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+<Property Name="Destination[1].path" Type="Path">../build/source-dist/data</Property>
+<Property Name="DestinationCount" Type="Int">2</Property>
+<Property Name="Source[0].itemID" Type="Str">{7A691014-A223-47F6-8247-26E7E1F187E9}</Property>
+<Property Name="Source[0].type" Type="Str">Container</Property>
+<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+<Property Name="Source[1].itemID" Type="Ref">/My Computer/g-sugar.lvlib</Property>
+<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+<Property Name="Source[1].type" Type="Str">Library</Property>
+<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+<Property Name="Source[2].itemID" Type="Ref">/My Computer/g-sugar-demo.vi</Property>
+<Property Name="Source[2].type" Type="Str">VI</Property>
+<Property Name="SourceCount" Type="Int">3</Property>
+</Item>
+
+[AB_L Before Build Class Data](1.650)(186688):
+buildSpecName:G-Sugar Source Distribution
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\objmgr;C:\ProgramData\National Instruments\InstCache\20.0;C:\Users\hunter\Documents\LabVIEW Data\2020(64-bit)\ExtraVILib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\instr.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\user.lib
+]
+buildContext:1859986796427870208
+buildObject:343405896
+preview:FALSE
+
+
+Source[0] (Container)
+path:
+itemID:{DB255D8D-6A7A-4E4F-AD19-125D9BE7904C}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (Library)
+path:C:\code\g-sugar\lv_src\g-sugar.lvlib
+itemID:{B589DDB8-4D6F-4A03-98FC-70BDD4A35528}
+containerIndex:-1
+sourceInclusion:Include
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[2] (VI)
+path:C:\code\g-sugar\lv_src\g-sugar-demo.vi
+itemID:{DE38166F-1780-423B-954C-E0693C7C5D99}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[3] (Container)
+path:
+itemID:{B779B099-2F58-4FEF-A81A-944175DB4072}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[4] (Container)
+path:
+itemID:{60471E2E-0BCE-4F5C-BDD0-D3C3334FEF71}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[5] (Container)
+path:
+itemID:{4CAE9C88-8A38-4C20-B876-6A68158F2605}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[6] (Container)
+path:
+itemID:{156DF9FE-19ED-4ABA-80C4-C24781E180C9}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[7] (Container)
+path:
+itemID:{E3681729-DC7F-45FF-A510-90B8D1D319F6}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[8] (VI)
+path:C:\code\g-sugar\lv_src\Inline Timer.vim
+itemID:{59D62C3F-2B18-48A7-80AB-A87B2C555AEA}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Inline Timer.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[9] (VI)
+path:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+itemID:{2C4B3177-1EBE-4D66-96FB-F756468E532F}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Timestamp Now if Default.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[10] (VI)
+path:C:\code\g-sugar\lv_src\Array to Set.vim
+itemID:{F5B112E6-65CB-4624-9F4A-5F5F3C8489CE}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to Set.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[11] (VI)
+path:C:\code\g-sugar\lv_src\Same Size Array.vim
+itemID:{14A943C6-6C80-4871-9BA5-FDA82DBB1A10}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Same Size Array.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[12] (VI)
+path:C:\code\g-sugar\lv_src\Create Custom Error.vi
+itemID:{4ECDFF91-457B-4361-B9C7-C38A85CED4C4}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Create Custom Error.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[13] (VI)
+path:C:\code\g-sugar\lv_src\Error Add Info.vi
+itemID:{BB71366F-FB76-458A-A947-1319A7C58FBB}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Error Add Info.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[14] (VI)
+path:C:\code\g-sugar\lv_src\Default Fallback.vim
+itemID:{DC3C5AB3-97CA-4EB1-BB87-D23DD3A43023}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Default Fallback.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[15] (VI)
+path:C:\code\g-sugar\lv_src\Keep Value.vim
+itemID:{4864AE90-C2CA-46C8-973C-D9861116C2A5}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Keep Value.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[16] (VI)
+path:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+itemID:{AD00DEB0-7953-4C4D-B6F4-5D84631FA628}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Key Value Array to Map.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[17] (VI)
+path:C:\code\g-sugar\lv_src\Map Items.vim
+itemID:{984BFD6B-5E78-4ADA-B4B3-0671410CDEA8}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Items.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[18] (VI)
+path:C:\code\g-sugar\lv_src\Map Keys.vim
+itemID:{63F9057F-0884-41F6-BBE9-6388F2CE82F1}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Keys.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[19] (VI)
+path:C:\code\g-sugar\lv_src\Array to String List.vim
+itemID:{4E5B2833-646D-4410-8344-7552F3EA5430}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to String List.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[20] (VI)
+path:C:\code\g-sugar\lv_src\String Array to List.vi
+itemID:{AC25E3FC-53B7-4BAD-A3DB-6616E29AA09C}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Array to List.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[21] (VI)
+path:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+itemID:{07B15589-4C3D-4798-A3F4-B15A662EA3D8}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Pluralizer EN.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:Destination Directory
+path:C:\code\g-sugar\build\source-dist
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\code\g-sugar\build\source-dist\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Applied Container Class Data](1.652)(186688):
+buildSpecName:G-Sugar Source Distribution
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\objmgr;C:\ProgramData\National Instruments\InstCache\20.0;C:\Users\hunter\Documents\LabVIEW Data\2020(64-bit)\ExtraVILib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\instr.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2020\user.lib
+]
+buildContext:1859986796427870208
+buildObject:343405896
+preview:FALSE
+
+
+Source[0] (Container)
+path:
+itemID:{DB255D8D-6A7A-4E4F-AD19-125D9BE7904C}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (Library)
+path:C:\code\g-sugar\lv_src\g-sugar.lvlib
+itemID:{B589DDB8-4D6F-4A03-98FC-70BDD4A35528}
+containerIndex:-1
+sourceInclusion:Include
+destinationIndex:0
+properties:[]
+newName:g-sugar.lvlib
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:g-sugar.lvlib
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[2] (VI)
+path:C:\code\g-sugar\lv_src\g-sugar-demo.vi
+itemID:{DE38166F-1780-423B-954C-E0693C7C5D99}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:g-sugar-demo.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[3] (Container)
+path:
+itemID:{B779B099-2F58-4FEF-A81A-944175DB4072}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[4] (Container)
+path:
+itemID:{60471E2E-0BCE-4F5C-BDD0-D3C3334FEF71}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[5] (Container)
+path:
+itemID:{4CAE9C88-8A38-4C20-B876-6A68158F2605}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[6] (Container)
+path:
+itemID:{156DF9FE-19ED-4ABA-80C4-C24781E180C9}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[7] (Container)
+path:
+itemID:{E3681729-DC7F-45FF-A510-90B8D1D319F6}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[8] (VI)
+path:C:\code\g-sugar\lv_src\Inline Timer.vim
+itemID:{59D62C3F-2B18-48A7-80AB-A87B2C555AEA}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Inline Timer.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Inline Timer.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[9] (VI)
+path:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+itemID:{2C4B3177-1EBE-4D66-96FB-F756468E532F}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Timestamp Now if Default.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Timestamp Now if Default.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[10] (VI)
+path:C:\code\g-sugar\lv_src\Array to Set.vim
+itemID:{F5B112E6-65CB-4624-9F4A-5F5F3C8489CE}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Array to Set.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to Set.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[11] (VI)
+path:C:\code\g-sugar\lv_src\Same Size Array.vim
+itemID:{14A943C6-6C80-4871-9BA5-FDA82DBB1A10}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Same Size Array.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Same Size Array.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[12] (VI)
+path:C:\code\g-sugar\lv_src\Create Custom Error.vi
+itemID:{4ECDFF91-457B-4361-B9C7-C38A85CED4C4}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Create Custom Error.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Create Custom Error.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[13] (VI)
+path:C:\code\g-sugar\lv_src\Error Add Info.vi
+itemID:{BB71366F-FB76-458A-A947-1319A7C58FBB}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Error Add Info.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Error Add Info.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[14] (VI)
+path:C:\code\g-sugar\lv_src\Default Fallback.vim
+itemID:{DC3C5AB3-97CA-4EB1-BB87-D23DD3A43023}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Default Fallback.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Default Fallback.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[15] (VI)
+path:C:\code\g-sugar\lv_src\Keep Value.vim
+itemID:{4864AE90-C2CA-46C8-973C-D9861116C2A5}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Keep Value.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Keep Value.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[16] (VI)
+path:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+itemID:{AD00DEB0-7953-4C4D-B6F4-5D84631FA628}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Key Value Array to Map.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Key Value Array to Map.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[17] (VI)
+path:C:\code\g-sugar\lv_src\Map Items.vim
+itemID:{984BFD6B-5E78-4ADA-B4B3-0671410CDEA8}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Map Items.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Items.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[18] (VI)
+path:C:\code\g-sugar\lv_src\Map Keys.vim
+itemID:{63F9057F-0884-41F6-BBE9-6388F2CE82F1}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Map Keys.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Keys.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[19] (VI)
+path:C:\code\g-sugar\lv_src\Array to String List.vim
+itemID:{4E5B2833-646D-4410-8344-7552F3EA5430}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:Array to String List.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to String List.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[20] (VI)
+path:C:\code\g-sugar\lv_src\String Array to List.vi
+itemID:{AC25E3FC-53B7-4BAD-A3DB-6616E29AA09C}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:String Array to List.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Array to List.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+Source[21] (VI)
+path:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+itemID:{07B15589-4C3D-4798-A3F4-B15A662EA3D8}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:String Pluralizer EN.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Pluralizer EN.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0
+
+
+Destination[0]
+destName:Destination Directory
+path:C:\code\g-sugar\build\source-dist
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\code\g-sugar\build\source-dist\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Opened TopLevel](1.675)(186816):
+
+[AB_L Linker Info](2.246)(187840):
+LinksToInclude:Exclusions -
+Edit time Dep: 0
+Typedefs: 0
+Poly VIs: 0
+Unsed lib items:0
+TopLevelPaths:
+C:\code\g-sugar\lv_src\g-sugar.lvlib
+
+
+[AB_L Post Linker](2.265)(187840):
+
+[AB_L Linker Items](2.271)(187840):
+
+LinkerItem[0] (existing source)
+path:C:\code\g-sugar\lv_src\g-sugar.lvlib
+delimted name:g-sugar.lvlib
+type:Library
+buttons:0
+viflags2:0
+links:[1,2,3,6,7,8,9,10,11,12,14,15,16,19]
+linker inclusion:include
+ClassData:(Library)
+(path:C:\code\g-sugar\lv_src\g-sugar.lvlib
+itemID:{B589DDB8-4D6F-4A03-98FC-70BDD4A35528}
+containerIndex:-1
+sourceInclusion:Include
+destinationIndex:0
+properties:[Remove front panel=FALSE
+]
+newName:g-sugar.lvlib
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib
+preventRename:FALSE
+relinkCallers:FALSE
+atomicCopy:FALSE
+allowMissingMembers:TRUE
+eng_newDelimitedName:g-sugar.lvlib
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[1] (existing source)
+path:C:\code\g-sugar\lv_src\Array to Set.vim
+delimted name:g-sugar.lvlib:Array to Set.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Array to Set.vim
+itemID:{F5B112E6-65CB-4624-9F4A-5F5F3C8489CE}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Array to Set.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to Set.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[2] (existing source)
+path:C:\code\g-sugar\lv_src\Same Size Array.vim
+delimted name:g-sugar.lvlib:Same Size Array.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Same Size Array.vim
+itemID:{14A943C6-6C80-4871-9BA5-FDA82DBB1A10}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Same Size Array.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Same Size Array.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[3] (existing source)
+path:C:\code\g-sugar\lv_src\Create Custom Error.vi
+delimted name:g-sugar.lvlib:Create Custom Error.vi
+type:Instrument
+buttons:0
+viflags2:1536
+links:[0,4]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Create Custom Error.vi
+itemID:{4ECDFF91-457B-4361-B9C7-C38A85CED4C4}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Create Custom Error.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Create Custom Error.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[4] (excluded)
+path:C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi
+delimted name:Error Cluster From Error Code.vi
+type:Instrument
+buttons:0
+viflags2:1536
+links:[5]
+linker inclusion:exclude
+
+LinkerItem[5] (excluded)
+path:C:\Program Files (x86)\National Instruments\LabVIEW 2020\help\glang.chm
+delimted name:glang.chm
+type:Help file
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:excludeChild
+
+LinkerItem[6] (existing source)
+path:C:\code\g-sugar\lv_src\Error Add Info.vi
+delimted name:g-sugar.lvlib:Error Add Info.vi
+type:Instrument
+buttons:0
+viflags2:132608
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Error Add Info.vi
+itemID:{BB71366F-FB76-458A-A947-1319A7C58FBB}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Error Add Info.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Error Add Info.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[7] (existing source)
+path:C:\code\g-sugar\lv_src\Default Fallback.vim
+delimted name:g-sugar.lvlib:Default Fallback.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Default Fallback.vim
+itemID:{DC3C5AB3-97CA-4EB1-BB87-D23DD3A43023}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Default Fallback.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Default Fallback.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[8] (existing source)
+path:C:\code\g-sugar\lv_src\Keep Value.vim
+delimted name:g-sugar.lvlib:Keep Value.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Keep Value.vim
+itemID:{4864AE90-C2CA-46C8-973C-D9861116C2A5}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Keep Value.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Keep Value.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[9] (existing source)
+path:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+delimted name:g-sugar.lvlib:Key Value Array to Map.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+itemID:{AD00DEB0-7953-4C4D-B6F4-5D84631FA628}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Key Value Array to Map.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Key Value Array to Map.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[10] (existing source)
+path:C:\code\g-sugar\lv_src\Map Items.vim
+delimted name:g-sugar.lvlib:Map Items.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Map Items.vim
+itemID:{984BFD6B-5E78-4ADA-B4B3-0671410CDEA8}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Map Items.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Items.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[11] (existing source)
+path:C:\code\g-sugar\lv_src\Map Keys.vim
+delimted name:g-sugar.lvlib:Map Keys.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Map Keys.vim
+itemID:{63F9057F-0884-41F6-BBE9-6388F2CE82F1}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Map Keys.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Map Keys.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[12] (existing source)
+path:C:\code\g-sugar\lv_src\Array to String List.vim
+delimted name:g-sugar.lvlib:Array to String List.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0,13]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Array to String List.vim
+itemID:{4E5B2833-646D-4410-8344-7552F3EA5430}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Array to String List.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Array to String List.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[13] (excluded)
+path:C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\AdvancedString\1D String Array to Delimited String.vi
+delimted name:1D String Array to Delimited String.vi
+type:Instrument
+buttons:161
+viflags2:132608
+links:[5]
+linker inclusion:exclude
+
+LinkerItem[14] (existing source)
+path:C:\code\g-sugar\lv_src\String Array to List.vi
+delimted name:g-sugar.lvlib:String Array to List.vi
+type:Instrument
+buttons:0
+viflags2:132608
+links:[0,13]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\String Array to List.vi
+itemID:{AC25E3FC-53B7-4BAD-A3DB-6616E29AA09C}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:String Array to List.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Array to List.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[15] (existing source)
+path:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+delimted name:g-sugar.lvlib:String Pluralizer EN.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+itemID:{07B15589-4C3D-4798-A3F4-B15A662EA3D8}
+containerIndex:7
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:String Pluralizer EN.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:String Pluralizer EN.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+LinkerItem[16] (existing source)
+path:C:\code\g-sugar\lv_src\Inline Timer.vim
+delimted name:g-sugar.lvlib:Inline Timer.vim
+type:Instrument
+buttons:0
+viflags2:132640
+links:[17,0,18]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Inline Timer.vim
+itemID:{59D62C3F-2B18-48A7-80AB-A87B2C555AEA}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Inline Timer.vim
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Inline Timer.vim
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:TRUE
+eng_reference:0)
+
+LinkerItem[17] (not valid)
+path:LabVIEW
+delimted name:LabVIEW
+type:Shared library
+buttons:0
+viflags2:0
+links:[]
+linker inclusion:include
+ClassData:(Source)
+(path:
+itemID:
+containerIndex:0
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:FALSE
+eng_inBuild:FALSE
+eng_isNonVILink:TRUE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE)
+
+LinkerItem[18] (excluded)
+path:C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\Utility\High Resolution Relative Seconds.vi
+delimted name:High Resolution Relative Seconds.vi
+type:Instrument
+buttons:161
+viflags2:132608
+links:[17,5]
+linker inclusion:exclude
+
+LinkerItem[19] (existing source)
+path:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+delimted name:g-sugar.lvlib:Timestamp Now if Default.vi
+type:Instrument
+buttons:0
+viflags2:132608
+links:[0]
+linker inclusion:include
+ClassData:(VI)
+(path:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+itemID:{2C4B3177-1EBE-4D66-96FB-F756468E532F}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:0
+properties:[]
+newName:Timestamp Now if Default.vi
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:TRUE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:g-sugar.lvlib:Timestamp Now if Default.vi
+preventRename:FALSE
+standardVI:TRUE
+dynamicDispatch:FALSE
+LLBtopLevel:FALSE
+privateDataControl:FALSE
+eng_hasNonVILinks:FALSE
+eng_reference:0)
+
+[AB_L Preview_PresrvHier](2.273)(187840):
+
+[AB_L Build Preview](2.273)(187840):
+Files:
+Array to Set.vim(visible)
+Array to String List.vim(visible)
+Create Custom Error.vi(visible)
+Default Fallback.vim(visible)
+Error Add Info.vi(visible)
+g-sugar.lvlib(visible)
+Inline Timer.vim(visible)
+Keep Value.vim(visible)
+Key Value Array to Map.vim(visible)
+Map Items.vim(visible)
+Map Keys.vim(visible)
+Same Size Array.vim(visible)
+String Array to List.vi(visible)
+String Pluralizer EN.vim(visible)
+Timestamp Now if Default.vi(visible)
+
+Destination Files:
+
+Max path length: (61), C:\code\g-sugar\build\source-dist\Timestamp Now if Default.vi
+
+[AB_L Create Destinations](2.276)(187840):
+
+
+Destination[0]
+destName:Destination Directory
+path:C:\code\g-sugar\build\source-dist
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\code\g-sugar\build\source-dist\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Copy Files](2.417)(187968):
+
+SourceItem[1]
+sourcePath:C:\code\g-sugar\lv_src\g-sugar.lvlib
+newPath:C:\code\g-sugar\build\source-dist\g-sugar.lvlib
+newDelimitedName:g-sugar.lvlib
+oldDelimitedName:g-sugar.lvlib
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:10
+
+SourceItem[8]
+sourcePath:C:\code\g-sugar\lv_src\Inline Timer.vim
+newPath:C:\code\g-sugar\build\source-dist\Inline Timer.vim
+newDelimitedName:g-sugar.lvlib:Inline Timer.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:TRUE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[9]
+sourcePath:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+newPath:C:\code\g-sugar\build\source-dist\Timestamp Now if Default.vi
+newDelimitedName:g-sugar.lvlib:Timestamp Now if Default.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[10]
+sourcePath:C:\code\g-sugar\lv_src\Array to Set.vim
+newPath:C:\code\g-sugar\build\source-dist\Array to Set.vim
+newDelimitedName:g-sugar.lvlib:Array to Set.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[11]
+sourcePath:C:\code\g-sugar\lv_src\Same Size Array.vim
+newPath:C:\code\g-sugar\build\source-dist\Same Size Array.vim
+newDelimitedName:g-sugar.lvlib:Same Size Array.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[12]
+sourcePath:C:\code\g-sugar\lv_src\Create Custom Error.vi
+newPath:C:\code\g-sugar\build\source-dist\Create Custom Error.vi
+newDelimitedName:g-sugar.lvlib:Create Custom Error.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:4
+
+SourceItem[13]
+sourcePath:C:\code\g-sugar\lv_src\Error Add Info.vi
+newPath:C:\code\g-sugar\build\source-dist\Error Add Info.vi
+newDelimitedName:g-sugar.lvlib:Error Add Info.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[14]
+sourcePath:C:\code\g-sugar\lv_src\Default Fallback.vim
+newPath:C:\code\g-sugar\build\source-dist\Default Fallback.vim
+newDelimitedName:g-sugar.lvlib:Default Fallback.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[15]
+sourcePath:C:\code\g-sugar\lv_src\Keep Value.vim
+newPath:C:\code\g-sugar\build\source-dist\Keep Value.vim
+newDelimitedName:g-sugar.lvlib:Keep Value.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:4
+
+SourceItem[16]
+sourcePath:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+newPath:C:\code\g-sugar\build\source-dist\Key Value Array to Map.vim
+newDelimitedName:g-sugar.lvlib:Key Value Array to Map.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:13
+
+SourceItem[17]
+sourcePath:C:\code\g-sugar\lv_src\Map Items.vim
+newPath:C:\code\g-sugar\build\source-dist\Map Items.vim
+newDelimitedName:g-sugar.lvlib:Map Items.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[18]
+sourcePath:C:\code\g-sugar\lv_src\Map Keys.vim
+newPath:C:\code\g-sugar\build\source-dist\Map Keys.vim
+newDelimitedName:g-sugar.lvlib:Map Keys.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[19]
+sourcePath:C:\code\g-sugar\lv_src\Array to String List.vim
+newPath:C:\code\g-sugar\build\source-dist\Array to String List.vim
+newDelimitedName:g-sugar.lvlib:Array to String List.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:7
+
+SourceItem[20]
+sourcePath:C:\code\g-sugar\lv_src\String Array to List.vi
+newPath:C:\code\g-sugar\build\source-dist\String Array to List.vi
+newDelimitedName:g-sugar.lvlib:String Array to List.vi
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[21]
+sourcePath:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+newPath:C:\code\g-sugar\build\source-dist\String Pluralizer EN.vim
+newDelimitedName:g-sugar.lvlib:String Pluralizer EN.vim
+oldDelimitedName:
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+[AB_L Save&Close Files](2.498)(187968):
+
+[AB_L Post Prepare Files](2.498)(187968):
+
+SourceItem[0]
+sourcePath:C:\code\g-sugar\lv_src\g-sugar.lvlib
+destPath:C:\code\g-sugar\build\source-dist\g-sugar.lvlib
+saveLevel:0x0
+saveTime:43
+
+SourceItem[1]
+sourcePath:C:\code\g-sugar\lv_src\Inline Timer.vim
+destPath:C:\code\g-sugar\build\source-dist\Inline Timer.vim
+saveLevel:0x20002000
+saveTime:15
+
+SourceItem[2]
+sourcePath:C:\code\g-sugar\lv_src\Timestamp Now if Default.vi
+destPath:C:\code\g-sugar\build\source-dist\Timestamp Now if Default.vi
+saveLevel:0x20002000
+saveTime:11
+
+SourceItem[3]
+sourcePath:C:\code\g-sugar\lv_src\Array to Set.vim
+destPath:C:\code\g-sugar\build\source-dist\Array to Set.vim
+saveLevel:0x20002000
+saveTime:18
+
+SourceItem[4]
+sourcePath:C:\code\g-sugar\lv_src\Same Size Array.vim
+destPath:C:\code\g-sugar\build\source-dist\Same Size Array.vim
+saveLevel:0x20002000
+saveTime:16
+
+SourceItem[5]
+sourcePath:C:\code\g-sugar\lv_src\Create Custom Error.vi
+destPath:C:\code\g-sugar\build\source-dist\Create Custom Error.vi
+saveLevel:0x20002000
+saveTime:25
+
+SourceItem[6]
+sourcePath:C:\code\g-sugar\lv_src\Error Add Info.vi
+destPath:C:\code\g-sugar\build\source-dist\Error Add Info.vi
+saveLevel:0x20002000
+saveTime:31
+
+SourceItem[7]
+sourcePath:C:\code\g-sugar\lv_src\Default Fallback.vim
+destPath:C:\code\g-sugar\build\source-dist\Default Fallback.vim
+saveLevel:0x20002000
+saveTime:21
+
+SourceItem[8]
+sourcePath:C:\code\g-sugar\lv_src\Keep Value.vim
+destPath:C:\code\g-sugar\build\source-dist\Keep Value.vim
+saveLevel:0x20002000
+saveTime:25
+
+SourceItem[9]
+sourcePath:C:\code\g-sugar\lv_src\Key Value Array to Map.vim
+destPath:C:\code\g-sugar\build\source-dist\Key Value Array to Map.vim
+saveLevel:0x20002000
+saveTime:18
+
+SourceItem[10]
+sourcePath:C:\code\g-sugar\lv_src\Map Items.vim
+destPath:C:\code\g-sugar\build\source-dist\Map Items.vim
+saveLevel:0x20002000
+saveTime:13
+
+SourceItem[11]
+sourcePath:C:\code\g-sugar\lv_src\Map Keys.vim
+destPath:C:\code\g-sugar\build\source-dist\Map Keys.vim
+saveLevel:0x20002000
+saveTime:19
+
+SourceItem[12]
+sourcePath:C:\code\g-sugar\lv_src\Array to String List.vim
+destPath:C:\code\g-sugar\build\source-dist\Array to String List.vim
+saveLevel:0x20002000
+saveTime:13
+
+SourceItem[13]
+sourcePath:C:\code\g-sugar\lv_src\String Array to List.vi
+destPath:C:\code\g-sugar\build\source-dist\String Array to List.vi
+saveLevel:0x20002000
+saveTime:13
+
+SourceItem[14]
+sourcePath:C:\code\g-sugar\lv_src\String Pluralizer EN.vim
+destPath:C:\code\g-sugar\build\source-dist\String Pluralizer EN.vim
+saveLevel:0x20002000
+saveTime:10
+
+[AB_L Post Save](2.835)(188096):
+
+[AB_L Set Top Level](2.837)(188096):
+
+[AB_L Close Refs](2.838)(188096):
+
+[AB_L CloseBuild](2.843)(188096):
+
+[AB_L END](3.881)(187968):
+8/7/2025 9:58:30 AM
