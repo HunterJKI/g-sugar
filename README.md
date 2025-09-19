@@ -11,8 +11,10 @@ Syntactic Sugar for LabVIEW (G)
 ![LabVIEW Version](https://img.shields.io/badge/LabVIEW-2020%2032-%23E37725.svg?)
 
 ## Distribution
+[Install G-Sugar from vipm](https://www.vipm.io/package/hunter_smith_lib_g_sugar/) for use in LabVIEW 2020+
 
-G-Sugar is distributed as a VI Package for use in LabVIEW 2020+
+<img width="532" height="360" alt="image" src="https://github.com/user-attachments/assets/f52db511-bfe9-41bf-b219-27e85a395422" />
+
 
 ## Licensing
 
